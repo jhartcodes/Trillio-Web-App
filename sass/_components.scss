@@ -1,14 +1,14 @@
-//////////////
-//LOGO
-
+////////////////////////////////////////
+// LOGO
 .logo {
 	height: 3.25rem;
+	margin-left: 2rem;
 }
 
-//////////////
-//SEARCH
-
+////////////////////////////////////////
+// SEARCH
 .search {
+	background-color: orangered;
 	&__input {
 	}
 
@@ -16,6 +16,8 @@
 	}
 
 	&__icon {
+		height: 2rem;
+		width: 2rem;
 	}
 }
 
@@ -23,20 +25,28 @@
 //USER NAVIGATION
 .user-nav {
 	&__icon-box {
+		display: flex;
 	}
 
 	&__icon {
+		height: 2.25rem;
+		width: 2.25rem;
 	}
 
 	&__notification {
+		display: flex;
 	}
 
 	&__user {
+		display: flex;
 	}
 
-	&&__user-photo {
+	&__user-photo {
+		height: 3.75rem;
+		border: radius 50%;
 	}
 
 	&__user-name {
+		display: flex;
 	}
 }
