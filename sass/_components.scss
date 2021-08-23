@@ -65,6 +65,7 @@
 //////////////
 //USER NAVIGATION
 .user-nav {
+	background-color: greenyellow;
 	align-self: stretch;
 	display: flex;
 	align-items: center;
@@ -72,6 +73,9 @@
 	& > * {
 		padding: 0 2rem;
 		cursor: pointer;
+		height: 100%;
+		display: flex;
+		align-items: center;
 	}
 
 	& > *:hover {
@@ -79,6 +83,8 @@
 	}
 
 	&__icon-box {
+		display: flex;
+		align-items: center;
 	}
 
 	&__icon {
