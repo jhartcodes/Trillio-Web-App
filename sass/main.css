@@ -459,4 +459,26 @@ body {
       -ms-flex: 1;
           flex: 1;
 }
+
+.detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4.5rem;
+}
+
+.description {
+  background-color: salmon;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
+  background-color: seagreen;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
 /*# sourceMappingURL=main.css.map */
