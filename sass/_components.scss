@@ -216,7 +216,10 @@
 	}
 
 	&__stars {
+		// flex: 1;
+		margin-right: auto;
 	}
+
 	&__icon-star,
 	&__icon-location {
 		width: 1.75rem;

@@ -277,6 +277,10 @@ body {
   display: flex;
 }
 
+.overview__stars {
+  margin-right: auto;
+}
+
 .overview__icon-star, .overview__icon-location {
   width: 1.75rem;
   height: 1.75rem;
@@ -296,7 +300,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
