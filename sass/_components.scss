@@ -235,6 +235,13 @@
 	}
 
 	&__location {
+		font-size: 1.2rem;
+		display: flex;
+		vertical-align: center;
+	}
+
+	&__icon-location {
+		margin-right: 0.5rem;
 	}
 
 	&__rating {
@@ -265,7 +272,7 @@
 		color: var(--color-grey-dark-1);
 	}
 
-	//inifite required so click effect happens more than once
+	//infinite required so click effect happens more than once
 	&:focus {
 		outline: none;
 		animation: pulsate 1s infinite;

@@ -302,6 +302,18 @@ body {
   fill: var(--color-primary);
 }
 
+.overview__location {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: center;
+}
+
+.overview__icon-location {
+  margin-right: 0.5rem;
+}
+
 .btn-inline {
   border: none;
   color: var(--color-primary);
