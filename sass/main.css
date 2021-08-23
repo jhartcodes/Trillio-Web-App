@@ -10,6 +10,7 @@
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --line: 1px solid var(--color-grey-light-2);
 }
 
 * {
@@ -278,7 +279,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
 }
 
 .overview__heading {
@@ -417,7 +418,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -465,6 +466,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
 }
 
 .description {
