@@ -302,6 +302,20 @@ body {
   fill: var(--color-primary);
 }
 
+.btn-inline {
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.btn-inline:hover {
+  color: var(--color-grey-dark-1);
+}
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
