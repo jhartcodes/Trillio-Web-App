@@ -260,6 +260,17 @@ body {
   padding: 2.5rem;
 }
 
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery__photo {
+  width: 100%;
+  display: block;
+}
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
