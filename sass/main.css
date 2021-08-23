@@ -112,11 +112,24 @@ body {
   fill: var(--color-grey-dark-3);
 }
 
-.user-nav__icon-box {
+.user-nav {
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: greenyellow;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-nav > * {
+  padding: 0 2rem;
+  cursor: pointer;
+}
+
+.user-nav > *:hover {
+  background-color: var(--color-grey-light-2);
 }
 
 .user-nav__icon {
@@ -138,7 +151,7 @@ body {
 
 .user-nav__user-photo {
   height: 3.75rem;
-  border: radius 50%;
+  border-radius: 50%;
 }
 
 .user-nav__user-name {
