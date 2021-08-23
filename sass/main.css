@@ -44,7 +44,7 @@ body {
 
 .logo {
   height: 3.25rem;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .search {
@@ -113,7 +113,6 @@ body {
 }
 
 .user-nav {
-  background-color: greenyellow;
   -ms-flex-item-align: stretch;
       align-self: stretch;
   display: -webkit-box;
@@ -147,17 +146,34 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .user-nav__icon {
   height: 2.25rem;
   width: 2.25rem;
+  fill: var(--color-grey-dark-2);
 }
 
 .user-nav__notification {
+  font-size: 0.8rem;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #fff;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .user-nav__user {
@@ -169,12 +185,7 @@ body {
 .user-nav__user-photo {
   height: 3.75rem;
   border-radius: 50%;
-}
-
-.user-nav__user-name {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-right: 1rem;
 }
 
 .container {
