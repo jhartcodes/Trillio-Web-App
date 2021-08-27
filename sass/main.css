@@ -665,6 +665,15 @@ body {
   display: flex;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .sidebar {
   background-color: var(--color-grey-dark-1);
   -webkit-box-flex: 0;
