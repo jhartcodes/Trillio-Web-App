@@ -362,14 +362,24 @@ body {
   transition: 0.2s;
 }
 
+.btn-inline span {
+  margin-left: 3px;
+  -webkit-transition: margin-left 0.2s;
+  transition: margin-left 0.2s;
+}
+
 .btn-inline:hover {
   color: var(--color-grey-dark-1);
 }
 
+.btn-inline:hover span {
+  margin-left: 8px;
+}
+
 .btn-inline:focus {
   outline: none;
-  -webkit-animation: pulsate 1s infinite;
-          animation: pulsate 1s infinite;
+  -webkit-animation: pulsate infinite 1s;
+          animation: pulsate infinite 1s;
 }
 
 @-webkit-keyframes pulsate {
@@ -483,6 +493,7 @@ body {
           box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
+  position: relative;
 }
 
 .review__text {
@@ -527,6 +538,18 @@ body {
   color: var(--color-primary);
   font-size: 2.2rem;
   font-weight: 300;
+}
+
+.review::before {
+  content: '\201C';
+  position: absolute;
+  top: -2.75rem;
+  left: -1rem;
+  line-height: 1;
+  font-size: 20rem;
+  color: var(--color-grey-light-2);
+  font-family: sans-serif;
+  z-index: 1;
 }
 
 .container {
@@ -609,5 +632,15 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
