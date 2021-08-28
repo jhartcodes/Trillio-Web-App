@@ -139,6 +139,10 @@
 		&:not(:last-child) {
 			margin-bottom: 0.5rem;
 		}
+
+		@media only screen and (max-width: $bp-medium) {
+			flex: 1;
+		}
 	}
 
 	&__item::before {
@@ -178,6 +182,11 @@
 
 		display: flex;
 		align-items: center;
+
+		@media only screen and (max-width: $bp-medium) {
+			justify-content: center;
+			padding: 2rem;
+		}
 	}
 
 	&__icon {
