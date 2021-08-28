@@ -534,6 +534,13 @@ body {
   position: relative;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .review {
+    padding: 2rem;
+    margin-bottm: 3rem;
+  }
+}
+
 .review__text {
   margin-bottom: 2rem;
   z-index: 10;
@@ -598,6 +605,12 @@ body {
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .cta {
+    padding: 2.5rem 0;
+  }
 }
 
 .cta__book-now {
@@ -750,6 +763,12 @@ body {
   border-bottom: var(--line);
 }
 
+@media only screen and (max-width: 56.25em) {
+  .detail {
+    padding: 3rem;
+  }
+}
+
 .description {
   background-color: #fff;
   -webkit-box-shadow: var(--shadow-light);
@@ -759,6 +778,13 @@ body {
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
   margin-right: 4.5rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .description {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
 }
 
 .user-reviews {
