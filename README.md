@@ -1,3 +1,7 @@
+## Trillo
+
+**_ Trillo is a small front end flexbox project to showcase my flexbox knowledge_**
+
 ## Final Product
 
 **_Booking App Design_** !["Header."](https://github.com/joelhart89/Trillio-Web-App/blob/master/docs/Webpage.png)
