@@ -1,6 +1,6 @@
 ## Final Product
 
-**_Booking App Design_**(https://github.com/joelhart89/Trillio-Web-App/blob/master/docs/Webpage.png)
+**_Booking App Design_** !["Header."](https://github.com/joelhart89/Trillio-Web-App/blob/master/docs/Webpage.png)
 
 # Getting Started
 
