@@ -1,6 +1,6 @@
 ## Trillo
 
-**_ Trillo is a small front end flexbox project to showcase my flexbox knowledge_**
+**Trillo is a small front end flexbox project to showcase my flexbox knowledge**
 
 ## Final Product
 
